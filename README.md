@@ -9,13 +9,20 @@
 ```bash
 git clone https://github.com/nataly-enne/chat-in-real-time.git
 ```
-2. No terminal, dentro da pasta do projeto inicie o servidor
+
+2. No terminal, dentro da pasta do projeto execute a instalação das bibliotecas
+
+```bash
+npm install ejs express socket.io # você pode usar "yarn add" no lugar do npm install se preferir
+```
+
+3. Inicie o servidor
 
 ```bash
 node server.js
 ```
 
-3. Abra uma aba no navegador no `localhost:3000` e outra aba anônima também no `localhost:3000`.
+4. Abra uma aba no navegador no `localhost:3000` e outra aba anônima também no `localhost:3000`.
 
 ## Caso surja algum erro
 
